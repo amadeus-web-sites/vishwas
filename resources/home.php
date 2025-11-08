@@ -49,7 +49,7 @@ function renderMenu($items) {
 		'ul-class' => '',
 		'files' => $items,
 		'this-is-standalone-section' => true,
-		'parent-slug' => variable(SAFENODEVAR) . '/' . getPageParameterAt(3) . '/',
+		//'parent-slug' => variable(SAFENODEVAR) . '/',
 	]);
 
 	echo HRTAG;
